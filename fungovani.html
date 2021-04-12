@@ -1,0 +1,241 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="generator" content="PSPad editor, www.pspad.com">
+<html lang="czech"></html>
+<title> C++ programování </title>
+<style>
+     
+ body{
+        background-color: lightgrey;
+ }
+
+ .menu{
+       
+       width: 15%;
+       height: 1050px;
+       margin-left: -1%;
+       margin-top: -1%;
+       background-color: grey;
+       border-right: 3px solid red;
+       float:left;
+       
+ }
+
+ .MenuHref{
+
+      width: calc(menu(width));
+      margin-right: -0.5px ;
+      height: 100px;
+      border-bottom: 3px solid red;
+      background-color: grey;
+      vertical-align: middle;
+      text-align: center;
+      color: white;
+      
+ }
+
+ .MenuHref:hover{
+
+  background-color: red;
+
+ }
+
+ .nadpis{
+
+      width: 50%;
+      height: 10%;
+      border:2px solid red;
+      background-color: red;
+      color: white;
+      text-align: center;
+      margin-left: 35%;
+      font-size: 180%;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      line-height: 75px;
+
+ }
+
+ .obsah{
+      width: 70%;
+      height: fit-content;
+      border: 3px solid red;
+      background-color: red;
+      color: black;
+      margin-left: 25%;
+      margin-top: 3%;
+      padding: 10px;
+      background-color: lightgrey;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      line-height: 30px;
+ }
+
+ .SkipTo{
+
+      border: 3px solid red;
+      width: fit-content;
+      background-color: red;
+      padding: 5px;
+      border-radius: 12px;
+      height: 5%;
+      margin-top: 5%;
+      margin-right: 4%;
+      text-align: center;
+      color: white;
+      float: right;
+ }
+
+ .LittleMenu{
+    border: 3px solid red;
+      width: fit-content;
+      background-color: red;
+      padding: 5px;
+      border-radius: 12px;
+      height: 5%;
+      margin-top: 5%;
+      margin-right: 0.5%;
+      text-align: center;
+      color: white;
+      float: right;
+
+    
+ }
+ ::selection {
+  background: white;
+}
+
+.MenuImage{
+
+      width: calc(menu(width));
+      margin-right: -0.5px ;
+      height: 100px;
+      margin-bottom: 20px;
+      background-color: grey;
+      vertical-align: middle;
+      text-align: center;
+      color: white;
+
+}
+.MenuImage2{
+
+      width: calc(menu(width));
+      margin-right: -0.5px ;
+      height: 100px;
+      margin-top: 30px;
+      margin-left: 19%;
+      background-color: grey;
+      vertical-align: middle;
+      text-align: center;
+      color: white;
+      float: left;
+
+
+}
+
+  </style>
+  </head>
+
+  <body>
+
+      <div class="menu">
+        
+        <div class="MenuImage">
+              <img src="logo.png" width="150"> 
+        </div>
+
+        <div class="MenuHref" onclick="location.href='index.html';" style="cursor: pointer; line-height: 100px; border-top: 3px solid red; " >
+              Úvod
+        </div>
+        <div class="MenuHref" onclick="location.href='uvod.html';" style="cursor: pointer; line-height: 100px; background-color: red;" >
+          Základní Informace
+        </div>
+        <div class="MenuHref" onclick="location.href='prvniprogram.html';" style="cursor: pointer; line-height: 100px;" >
+        První program
+        </div>
+        <div class="MenuHref" onclick="location.href='data.html';" style="cursor: pointer; line-height: 100px;">
+         Data
+        </div>
+        <div class="MenuHref" onclick="location.href='algoritmy.html';" style="cursor: pointer; line-height: 100px;">
+          Algoritmy
+         </div>
+        <div class="MenuHref" onclick="location.href='kontakt.html';" style="cursor: pointer; line-height: 100px;">
+          Kontakt
+         </div>
+         <a href="https://github.com/krystofdvorak" target="_blank">
+         <div class="MenuImage2">
+              <img src="github.png"  width="50"> 
+        </div>
+        </a>
+        <a href="https://www.instagram.com/krystof.dv/" target="_blank">
+        <div class="MenuImage2">
+              <img src="ig.png" width="50"> 
+        </div>
+        </a>
+
+      </div>
+
+      <div class="nadpis">
+
+        Fungování jazyka C++
+
+      </div>
+
+      <div class="LittleMenu" onclick="location.href='fungovani.html';" style="cursor: pointer; line-height: 35px; float:left; margin-left: 11%; margin-top: 4.5%;">
+
+        Fungování jazyka C++
+
+      </div>
+      <div class="LittleMenu" onclick="location.href='prekladac.html';" style="cursor: pointer; line-height: 35px; float:left; margin-left: 11%; margin-top: 4.5%;padding-left: 20px;padding-right: 20px;">
+
+        Překladač
+
+      </div>
+      <div class="LittleMenu" onclick="location.href='historie.html';" style="cursor: pointer; line-height: 35px; float:left; margin-left: 11%; margin-top: 4.5%;padding-left: 20px;padding-right: 20px;">
+
+        Historie
+
+      </div>
+      <div class="LittleMenu" onclick="location.href='soucasnost.html';" style="cursor: pointer; line-height: 35px; float:left; margin-left: 11%; margin-top: 4.5%;">
+
+        Součastnost jazyka C++
+
+      </div>
+
+      <div class="obsah" style="margin-top: 10%;">
+
+        Zde si řekneme něco o základech kompilace (rozvedeme v kapitole Překladač). Jazyk C++ je Nízkou úrovňový,
+        systémový jazyk, překládaný jazyk. Vzhledem k těmto skutečnostím je jazyk C++ až 400krát rychlejší než velmi populární jazyk Python. Narozdíl od Pythonu je jazyk C++ ale velmi složitý,
+        a je pravidlem že kód se stejným učínkem zabere v Pythonu 10 řádků kódu a v C++ 200. Teď už je jen na vás jestli preferujete rychlost psaní kódu nebo rychlost vaší aplikace.
+        Jazyk C++ je objektově orientovaný (OOP), o objektech si povídat nebudeme, je ale dobré vědět že C++ není pouze objektový jako např. C# ale  podporuje i procedurální programování a generické programování.
+        OOP má výhodu, protože výkonný kód je v objektovém programování přidružen k datům (metody jsou zapouzdřeny v objektech), což umožňuje snadnější přenos kódu mezi různými projekty (abstrakce a zapouzdření).
+
+      </div>
+      <div class="obsah" style="margin-top: 2.5%;">
+    
+        Nejčastější užití jazyka C++ je v aplikacích které musí běžet rychle. Nejčastěji složité hry (Fortnite, PubG, COD, Cyberpunk 2077 atd.), v podstatě si můžete být jistí, že pokud si zakoupíte novou hru, bude napsána v C++, nebo v C#.
+        Další užití jazyka C++ je např. Grafický editor, program na střih videí, komprese, operační systémy atd.
+        Slušelo by se poznamenat že jazyk C++ se nepoužívá pouze v Osobních počítačích. Např. Osobní automobily používají z pravidla C nebo C++, podobně jako letadla,různí roboti atd.
+
+      </div>
+
+      <div class="SkipTo" onclick="location.href='uvod.html';" style="cursor: pointer; line-height: 35px; float:left; margin-left: 11%; margin-top: 4.5%;">
+
+        Zpět na Základní Informace
+
+      </div>
+
+      <div class="SkipTo" onclick="location.href='prekladac.html';" style="cursor: pointer; line-height: 35px;">
+
+        Pokračovat na Překladač
+
+      </div>
+      <div class="SkipTo" onclick="location.href='prvniprogram.html';" style="cursor: pointer; line-height: 35px; ">
+
+        Přeskočit na První Program
+
+      </div>
+
+
+  </body>
+</html>

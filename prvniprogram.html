@@ -1,0 +1,226 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="PSPad editor, www.pspad.com">
+  <html lang="czech"></html>
+  <title> C++ programování </title>
+  <style>
+     
+ 
+ body{
+        background-color: lightgrey;
+ }
+
+ .menu{
+       
+       width: 15%;
+       height: 1000px;
+       margin-left: -1%;
+       margin-top: -1%;
+       background-color: grey;
+       border-right: 3px solid red;
+       float:left;
+       
+ }
+
+ .MenuHref{
+
+      width: calc(menu(width));
+      margin-right: -0.5px ;
+      height: 100px;
+      border-bottom: 3px solid red;
+      background-color: grey;
+      vertical-align: middle;
+      text-align: center;
+      color: white;
+      
+ }
+
+ .MenuHref:hover{
+
+  background-color: red;
+
+ }
+
+ .nadpis{
+
+      width: 50%;
+      height: 10%;
+      border:2px solid red;
+      background-color: red;
+      color: white;
+      text-align: center;
+      margin-left: 35%;
+      font-size: 180%;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      line-height: 75px;
+
+ }
+
+ .obsah{
+      width: 70%;
+      height: fit-content;
+      border: 3px solid red;
+      background-color: red;
+      color: black;
+      margin-left: 25%;
+      margin-top: 3%;
+      padding: 10px;
+      background-color: lightgrey;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      line-height: 30px;
+ }
+
+ .SkipTo{
+
+      border: 3px solid red;
+      width: fit-content;
+      background-color: red;
+      padding: 5px;
+      border-radius: 12px;
+      height: 5%;
+      margin-top: 5%;
+      margin-right: 4%;
+      text-align: center;
+      color: white;
+      float: right;
+ }
+
+ .LittleMenu{
+    border: 3px solid red;
+      width: fit-content;
+      background-color: red;
+      padding: 5px;
+      border-radius: 12px;
+      height: 5%;
+      margin-top: 5%;
+      margin-right: 0.5%;
+      text-align: center;
+      color: white;
+      float: right;
+
+    
+ }
+ ::selection {
+  background: white;
+}
+.MenuImage{
+
+      width: calc(menu(width));
+      margin-right: -0.5px ;
+      height: 100px;
+      margin-bottom: 20px;
+      background-color: grey;
+      vertical-align: middle;
+      text-align: center;
+      color: white;
+
+}
+.MenuImage2{
+
+      width: calc(menu(width));
+      margin-right: -0.5px ;
+      height: 100px;
+      margin-top: 30px;
+      margin-left: 19%;
+      background-color: grey;
+      vertical-align: middle;
+      text-align: center;
+      color: white;
+      float: left;
+
+
+}
+  </style>
+  </head>
+
+  <body>
+
+      <div class="menu">
+
+        <div class="MenuImage">
+              <img src="logo.png" width="150"> 
+        </div>
+        
+        <div class="MenuHref" onclick="location.href='index.html';" style="cursor: pointer; line-height: 100px; border-top: 3px solid red; " >
+              Úvod
+        </div>
+        <div class="MenuHref" onclick="location.href='uvod.html';" style="cursor: pointer; line-height: 100px; " >
+          Základní Informace
+        </div>
+        <div class="MenuHref" onclick="location.href='prvniprogram.html';" style="cursor: pointer; line-height: 100px; background-color: red;" >
+        První program
+        </div>
+        <div class="MenuHref" onclick="location.href='data.html';" style="cursor: pointer; line-height: 100px;">
+         Data
+        </div>
+        <div class="MenuHref" onclick="location.href='algoritmy.html';" style="cursor: pointer; line-height: 100px;">
+          Algoritmy
+         </div>
+        <div class="MenuHref" onclick="location.href='kontakt.html';" style="cursor: pointer; line-height: 100px;">
+          Kontakt
+         </div>
+         <a href="https://github.com/krystofdvorak" target="_blank">
+         <div class="MenuImage2">
+              <img src="github.png"  width="50"> 
+        </div>
+        </a>
+        <a href="https://www.instagram.com/krystof.dv/" target="_blank">
+        <div class="MenuImage2">
+              <img src="ig.png" width="50"> 
+        </div>
+        </a>
+
+      </div>
+
+      <div class="nadpis">
+
+        První program
+
+      </div>
+
+      <div class="LittleMenu" onclick="location.href='prvniprogram.html';" style="cursor: pointer; line-height: 35px; float:left; margin-left: 11%; margin-top: 4.5%; padding-left: 20px;padding-right: 20px">
+
+        Příprava 
+
+      </div>
+      <div class="LittleMenu" onclick="location.href='kod.html';" style="cursor: pointer; line-height: 35px; float:left; margin-left: 11%; margin-top: 4.5%;padding-left: 20px;padding-right: 20px;">
+
+        Samotný kód
+
+      </div>
+      <div class="LittleMenu" onclick="location.href='knihovny.html';" style="cursor: pointer; line-height: 35px; float:left; margin-left: 11%; margin-top: 4.5%;padding-left: 20px;padding-right: 20px;">
+
+        Propojení knihoven
+
+      </div>
+
+      <div class="obsah" style="margin-top: 10%;">
+
+       Konečně si můžeme napsat svůj první kód. Ikdyž tak úplně ně :D . Nyní si musíme stáhnout náš Text Editor. Osobně doporučuji Visual Studio Code. Tento Editor si můžete stáhnout na  <b><a href="https://code.visualstudio.com/download" target="_blank" style="text-decoration: none; color:red;"> Tomto odkazu </a></b>
+       Poté si stáhněte v kolonce Extensions <b> C/C++ </b> a <b> C/C++ Extension Pack </b>. Poté doporučuji vytvořit na vašem disku složku s názvem <b> C++ </b> a v ní soubor <b> main.cpp </b>
+       Tento soubor pak ve VSC (Visual Studio Code) otevřete. Za předpokladu že máte stažený G++ překladač si ještě otevřete příkazový řádek a "vlezte" do složky. Nyní jste připraveni!
+
+      </div>
+
+      <div class="SkipTo" onclick="location.href='soucasnost.html';" style="cursor: pointer; line-height: 35px; float:left; margin-left: 11%; margin-top: 4.5%;">
+
+        Zpět na Součastnost
+
+      </div>
+
+      <div class="SkipTo" onclick="location.href='kod.html';" style="cursor: pointer; line-height: 35px;">
+
+        Pokračovat na Samotný kód
+
+      </div>
+      <div class="SkipTo" onclick="location.href='data.html';" style="cursor: pointer; line-height: 35px; ">
+
+        Přeskočit na Data
+
+      </div>
+
+
+  </body>
+</html>

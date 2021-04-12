@@ -1,0 +1,262 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="PSPad editor, www.pspad.com">
+  <html lang="czech"></html>
+  <title> C++ programování </title>
+  <style>
+     
+ 
+ body{
+        background-color: lightgrey;
+ }
+
+ .menu{
+       
+       width: 15%;
+       height: 1300px;
+       margin-left: -1%;
+       margin-top: -1%;
+       background-color: grey;
+       border-right: 3px solid red;
+       float:left;
+       
+ }
+
+ .MenuHref{
+
+      width: calc(menu(width));
+      margin-right: -0.5px ;
+      height: 100px;
+      border-bottom: 3px solid red;
+      background-color: grey;
+      vertical-align: middle;
+      text-align: center;
+      color: white;
+      
+ }
+
+ .MenuHref:hover{
+
+  background-color: red;
+
+ }
+
+ .nadpis{
+
+      width: 50%;
+      height: 10%;
+      border:2px solid red;
+      background-color: red;
+      color: white;
+      text-align: center;
+      margin-left: 35%;
+      font-size: 180%;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      line-height: 75px;
+
+ }
+
+ .obsah{
+      width: 70%;
+      height: fit-content;
+      border: 3px solid red;
+      background-color: red;
+      color: black;
+      margin-left: 25%;
+      margin-top: 3%;
+      padding: 10px;
+      background-color: lightgrey;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      line-height: 30px;
+ }
+
+ .SkipTo{
+
+      border: 3px solid red;
+      width: fit-content;
+      background-color: red;
+      padding: 5px;
+      border-radius: 12px;
+      height: 5%;
+      margin-top: 5%;
+      margin-right: 4%;
+      text-align: center;
+      color: white;
+      float: right;
+ }
+
+ .LittleMenu{
+    border: 3px solid red;
+      width: fit-content;
+      background-color: red;
+      padding: 5px;
+      border-radius: 12px;
+      height: 5%;
+      margin-top: 5%;
+      margin-right: 0.5%;
+      text-align: center;
+      color: white;
+      float: right;
+
+    
+ }
+ ::selection {
+  background: white;
+}
+.MenuImage{
+
+      width: calc(menu(width));
+      margin-right: -0.5px ;
+      height: 100px;
+      margin-bottom: 20px;
+      background-color: grey;
+      vertical-align: middle;
+      text-align: center;
+      color: white;
+
+}
+.MenuImage2{
+
+      width: calc(menu(width));
+      margin-right: -0.5px ;
+      height: 100px;
+      margin-top: 30px;
+      margin-left: 19%;
+      background-color: grey;
+      vertical-align: middle;
+      text-align: center;
+      color: white;
+      float: left;
+
+
+}
+
+  </style>
+  </head>
+
+  <body>
+
+      <div class="menu">
+
+        <div class="MenuImage">
+              <img src="logo.png" width="150"> 
+        </div>
+        
+        <div class="MenuHref" onclick="location.href='index.html';" style="cursor: pointer; line-height: 100px; border-top: 3px solid red; " >
+              Úvod
+        </div>
+        <div class="MenuHref" onclick="location.href='uvod.html';" style="cursor: pointer; line-height: 100px; background-color: red;" >
+          Základní Informace
+        </div>
+        <div class="MenuHref" onclick="location.href='prvniprogram.html';" style="cursor: pointer; line-height: 100px;" >
+        První program
+        </div>
+        <div class="MenuHref" onclick="location.href='data.html';" style="cursor: pointer; line-height: 100px;">
+         Data
+        </div>
+        <div class="MenuHref" onclick="location.href='algoritmy.html';" style="cursor: pointer; line-height: 100px;">
+          Algoritmy
+         </div>
+        <div class="MenuHref" onclick="location.href='kontakt.html';" style="cursor: pointer; line-height: 100px;">
+          Kontakt
+         </div>
+         <a href="https://github.com/krystofdvorak" target="_blank">
+         <div class="MenuImage2">
+              <img src="github.png"  width="50"> 
+        </div>
+        </a>
+        <a href="https://www.instagram.com/krystof.dv/" target="_blank">
+        <div class="MenuImage2">
+              <img src="ig.png" width="50"> 
+        </div>
+        </a>
+
+      </div>
+
+      <div class="nadpis">
+
+        Historie 
+
+      </div>
+
+      <div class="LittleMenu" onclick="location.href='fungovani.html';" style="cursor: pointer; line-height: 35px; float:left; margin-left: 11%; margin-top: 4.5%;">
+
+        Fungování jazyka C++
+
+      </div>
+      <div class="LittleMenu" onclick="location.href='prekladac.html';" style="cursor: pointer; line-height: 35px; float:left; margin-left: 11%; margin-top: 4.5%;padding-left: 20px;padding-right: 20px;">
+
+        Překladač
+
+      </div>
+      <div class="LittleMenu" onclick="location.href='historie.html';" style="cursor: pointer; line-height: 35px; float:left; margin-left: 11%; margin-top: 4.5%;padding-left: 20px;padding-right: 20px;">
+
+        Historie
+
+      </div>
+      <div class="LittleMenu" onclick="location.href='soucasnost.html';" style="cursor: pointer; line-height: 35px; float:left; margin-left: 11%; margin-top: 4.5%;">
+
+        Součastnost jazyka C++
+
+      </div>
+
+      <div class="obsah" style="margin-top: 10%;">
+
+         <b> Jak vznikl název C++? </b> <br>
+         Starší verze jazyka, společně označované jako „C with Classes“, byly používány od roku 1980. Jméno C++ vymyslel Rick Mascitti v létě 1983. Toto jméno zdůrazňuje evoluční povahu změn oproti jazyku C; „++“ je operátor inkrementace v C.
+          Kratší jméno „C+“ je syntaktická chyba a bylo též použito jako jméno jiného nesouvisejícího jazyka.
+
+      </div>
+    
+      <div class="obsah" style="margin-top: 2.5%;">
+    
+        <b> Standardy jazyka C++ </b><br>
+        Přestože byl jazyk vyvíjen již od počátku 80. let, první oficiální norma C++ byla přijata v roce 1998, další v roce 2003 (INCITS/ISO/IEC 14882-2003). V roce 2006 a 2007 byly přijaty některé aktualizace. Standard označovaný jako C++11, 
+        značně rozšířil C++ a byl přijat organizací ISO v září 2011 jako ISO/IEC 14882:2011. Současný standard je C++17 (ISO/IEC 14882:2017).
+        
+      </div>
+
+      <div class="obsah" style="margin-top: 2.5%;">
+    
+        <b> Historie </b><br>
+
+        Bjarne Stroustrup sepsal první verzi jazyka C++ v roce 1979, když pracoval v Bellových laboratořích. Původní název C with Classes byl změněn na současný C++ v roce 1983. V roce 1985 byla zveřejněna první komerční implementace tohoto jazyka. Od roku 1998 je jazyk standardem ISO stejně jako jazyk C.
+        
+        
+      </div>
+       <div class="obsah" style="margin-top: 2.5%;">
+    
+        <b> Bjarne Stroustrup </b><br>
+
+        Bjarne Stroustrup je dánský programátor a informatik, profesor na Texas A&M University a samozřejmě i tvůrce jazyka C++. Narodil se v roce 1950 v dánském městě Aarhus,
+        studoval na Aarhuská univerzita, Univerzita v Cambridgi a Churchill College. A získal ocenění jako: Cena Grace Murray Hopperové (1993)
+ACM Fellow (1994)
+William Procter Prize for Scientific Achievement (2005)
+Rigmor and Carl Holst-Knudsen Award for Scientific Research (2010)
+Dahl-Nygaard Prize (2015)
+        
+        
+      </div>
+
+      <div class="SkipTo" onclick="location.href='prekladac.html';" style="cursor: pointer; line-height: 35px; float:left; margin-left: 11%; margin-top: 4.5%;">
+
+        Zpět na Překladač
+
+      </div>
+
+      <div class="SkipTo" onclick="location.href='soucasnost.html';" style="cursor: pointer; line-height: 35px;">
+
+        Pokračovat na Součastnost jazyka C++
+
+      </div>
+      <div class="SkipTo" onclick="location.href='prvniprogram.html';" style="cursor: pointer; line-height: 35px; ">
+
+        Přeskočit na První Program
+
+      </div>
+
+
+  </body>
+</html>

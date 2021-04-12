@@ -1,0 +1,274 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="PSPad editor, www.pspad.com">
+  <html lang="czech"></html>
+  <title> C++ programování </title>
+  <style>
+     
+ 
+ body{
+        background-color: lightgrey;
+ }
+
+ .menu{
+       
+       width: 15%;
+       height: 1600px;
+       margin-left: -1%;
+       margin-top: -1%;
+       background-color: grey;
+       border-right: 3px solid red;
+       float:left;
+       
+ }
+
+ .MenuHref{
+
+      width: calc(menu(width));
+      margin-right: -0.5px ;
+      height: 100px;
+      border-bottom: 3px solid red;
+      background-color: grey;
+      vertical-align: middle;
+      text-align: center;
+      color: white;
+      
+ }
+
+ .MenuHref:hover{
+
+  background-color: red;
+
+ }
+
+ .nadpis{
+
+      width: 50%;
+      height: 10%;
+      border:2px solid red;
+      background-color: red;
+      color: white;
+      text-align: center;
+      margin-left: 35%;
+      font-size: 180%;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      line-height: 75px;
+
+ }
+
+ .obsah{
+      width: 70%;
+      height: fit-content;
+      border: 3px solid red;
+      background-color: red;
+      color: black;
+      margin-left: 25%;
+      margin-top: 3%;
+      padding: 10px;
+      background-color: lightgrey;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      line-height: 30px;
+ }
+
+ .SkipTo{
+
+      border: 3px solid red;
+      width: fit-content;
+      background-color: red;
+      padding: 5px;
+      border-radius: 12px;
+      height: 5%;
+      margin-top: 5%;
+      margin-right: 4%;
+      text-align: center;
+      color: white;
+      float: right;
+ }
+
+ .LittleMenu{
+    border: 3px solid red;
+      width: fit-content;
+      background-color: red;
+      padding: 5px;
+      border-radius: 12px;
+      height: 5%;
+      margin-top: 5%;
+      margin-right: 0.5%;
+      text-align: center;
+      color: white;
+      float: right;
+
+    
+ }
+ ::selection {
+  background: white;
+}
+
+.code 
+{
+    width: 70%;
+      height: fit-content;
+      border: 3px solid black;
+      border-radius: 12px;
+      background-color: grey;
+      color: black;
+      margin-left: 25%;
+      margin-top: 3%;
+      padding: 10px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      line-height: 30px;
+
+}
+
+.MenuImage{
+
+      width: calc(menu(width));
+      margin-right: -0.5px ;
+      height: 100px;
+      margin-bottom: 20px;
+      background-color: grey;
+      vertical-align: middle;
+      text-align: center;
+      color: white;
+
+}
+.MenuImage2{
+
+      width: calc(menu(width));
+      margin-right: -0.5px ;
+      height: 100px;
+      margin-top: 30px;
+      margin-left: 19%;
+      background-color: grey;
+      vertical-align: middle;
+      text-align: center;
+      color: white;
+      float: left;
+
+
+}
+  </style>
+  </head>
+
+  <body>
+
+      <div class="menu">
+
+        <div class="MenuImage">
+              <img src="logo.png" width="150"> 
+        </div>
+        
+        <div class="MenuHref" onclick="location.href='index.html';" style="cursor: pointer; line-height: 100px; border-top: 3px solid red; " >
+              Úvod
+        </div>
+        <div class="MenuHref" onclick="location.href='uvod.html';" style="cursor: pointer; line-height: 100px;" >
+          Základní Informace
+        </div>
+        <div class="MenuHref" onclick="location.href='prvniprogram.html';" style="cursor: pointer; line-height: 100px; background-color: red;" >
+        První program
+        </div>
+        <div class="MenuHref" onclick="location.href='data.html';" style="cursor: pointer; line-height: 100px;">
+         Data
+        </div>
+        <div class="MenuHref" onclick="location.href='algoritmy.html';" style="cursor: pointer; line-height: 100px;">
+          Algoritmy
+         </div>
+        <div class="MenuHref" onclick="location.href='kontakt.html';" style="cursor: pointer; line-height: 100px;">
+          Kontakt
+         </div>
+         <a href="https://github.com/krystofdvorak" target="_blank">
+         <div class="MenuImage2">
+              <img src="github.png"  width="50"> 
+        </div>
+        </a>
+        <a href="https://www.instagram.com/krystof.dv/" target="_blank">
+        <div class="MenuImage2">
+              <img src="ig.png" width="50"> 
+        </div>
+        </a>
+
+      </div>
+
+      <div class="nadpis">
+
+        Samotný kód
+
+      </div>
+
+      <div class="LittleMenu" onclick="location.href='prvniprogram.html';" style="cursor: pointer; line-height: 35px; float:left; margin-left: 11%; margin-top: 4.5%; padding-left: 20px;padding-right: 20px">
+
+        Příprava 
+
+      </div>
+      <div class="LittleMenu" onclick="location.href='kod.html';" style="cursor: pointer; line-height: 35px; float:left; margin-left: 11%; margin-top: 4.5%;padding-left: 20px;padding-right: 20px;">
+
+        Samotný kód
+
+      </div>
+      <div class="LittleMenu" onclick="location.href='knihovny.html';" style="cursor: pointer; line-height: 35px; float:left; margin-left: 11%; margin-top: 4.5%;padding-left: 20px;padding-right: 20px;">
+
+        Propojení knihoven
+
+      </div>
+
+      <div class="obsah" style="margin-top: 10%;">
+
+        Zde můžete vidět náš první "Hello world" program. Za chvíli si ho rozebereme.
+      
+      </div>
+
+      <div class="code" style="margin-top: 5%; ">
+
+            <br> 
+          &nbsp&nbsp&nbsp  #include < iostream >  <br>
+           &nbsp&nbsp&nbsp using namespace std; <br> <br>
+
+         &nbsp&nbsp&nbsp   int main(void) <br>
+         &nbsp&nbsp&nbsp   {           <br>
+         &nbsp&nbsp&nbsp&nbsp&nbsp             cout << "Hello world!" << endl; <br> 
+
+         &nbsp&nbsp&nbsp&nbsp&nbsp       return 0; <br>
+       &nbsp&nbsp&nbsp    } <br> <br> 
+
+      </div>
+      <div class="obsah" style="margin-top: 5%;">
+
+        <b> #include < iostream > </b>, znamená že překladač (už jsme se o něm bavili) má použít knihovnu <b> iostream </b>. V ní jsou definované základní funkce.
+        <br>
+        <br>
+        <b> using namespace std </b> znamená používání oboru názvu <b> std </b>. Výklad o oborů názvů ale není součástí této stránky. Pokud jste si ještě nevšimnuli, za každým příkazem krom funkce main a includovaní knihoven se za každým řádkem píšou <b> ; </b>
+        <br>
+        <br>
+        <b> int main(void) </b> Je základní funkce programu. <b> int </b> je datový typ funkce main a parametr <b> void </b> znamená, že do funkce nepřichází žádne argumenty.
+        Každá funkce je zapsaná do {} závorek. 
+        <br>
+        <br>
+        <b>  cout << "Hello world!" << endl; </b> Je základní příkaz <b> cout (console out) </b> je příkaz pro vypsání textu do konzole. Poté následuje <b> << (syntaxe příkazu) </b>, text <b> Hello world </b> a <b> << endl; </b>, konec řádku (end of line) 
+        <br>
+        <br>
+        <b> return 0 </b> je funkce která ukončuje program. Proč zrovna 0? Funkce <b> main </b> je typu int (integer), což je celočíslený typ s rozsahem 4 bajtů. Samozřejmě můžeme napsat i return 0, nebo například return 51456, nejčastěji se používá <b> 1 </b> při úspěšném provedení funkce, <b> 0 </b> při neúspěšném (main je vyjímka)
+
+      </div>
+
+      <div class="SkipTo" onclick="location.href='prvniprogram.html';" style="cursor: pointer; line-height: 35px; float:left; margin-left: 11%; margin-top: 4.5%;">
+
+        Zpět na První Program
+
+      </div>
+
+      <div class="SkipTo" onclick="location.href='knihovny.html';" style="cursor: pointer; line-height: 35px;">
+
+        Pokračovat na Propojení knihoven
+
+      </div>
+      <div class="SkipTo" onclick="location.href='data.html';" style="cursor: pointer; line-height: 35px; ">
+
+        Přeskočit na Data
+
+      </div>
+
+
+  </body>
+</html>
